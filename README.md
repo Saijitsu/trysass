@@ -15,7 +15,7 @@ https://sass-lang.com/documentation/
 - abstracts/    ex: variable, function, mixins, placeholders
 - vendors/      ex: bootstrap, jquery-ui
 - main.scss
-
+<br/>
 **The base, components, and layout do the same job as the file structure above. However, instead of a single file, we now manage them in a folder.**
 <br/>
 - Base: animations, base, typography, and utilies.
@@ -26,4 +26,12 @@ https://sass-lang.com/documentation/
 - Abstracts: handles function, mixins, and variables
 - Vendor: handles 3rd party css
 - Here’s a boilerplate from the original author.
+<br/>
 
+### Basic tips!
+Nice general guide from here: https://sass-lang.com/guide 
+
+### @mixin or @extend?
+Only use @extend when the rulesets that you are trying to DRY out are inherently and thematically related. Do not force relationships that do not exist: to do so will create unusual groupings in your project, as well as negatively impacting the source order of your code.
+<br/>
+Use a mixin to either inject dynamic values into repeated constructs, or as a Sassy copy/paste which allows you to repeat the same group of declarations throughout your project whilst keeping a Single Source of Truth.

@@ -5,6 +5,7 @@ https://sass-guidelin.es/ <br/>
 https://sass-lang.com/documentation/
 
 ## Bigger Projects
+
 **For a bigger project, multiple page app, I use 7–1 pattern, it is similar to the small project file structure but with more folders. Here’s what 7–1 the pattern looks like.**
 <br/>
 - base/         ex: reset, typography
@@ -15,7 +16,7 @@ https://sass-lang.com/documentation/
 - abstracts/    ex: variable, function, mixins, placeholders
 - vendors/      ex: bootstrap, jquery-ui
 - main.scss
-<br/>
+
 **The base, components, and layout do the same job as the file structure above. However, instead of a single file, we now manage them in a folder.**
 <br/>
 - Base: animations, base, typography, and utilies.

@@ -1,0 +1,11 @@
+.alert {
+  border: 1px solid;
+}
+.alert.info {
+  background-color: lightgreen;
+}
+.alert.error {
+  background-color: pink;
+}
+
+/*# sourceMappingURL=alert.css.map */

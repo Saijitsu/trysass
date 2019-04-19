@@ -1,0 +1,14 @@
+.alert {
+    $infoColor: lightgreen;
+    $errorColor: pink;
+
+    border: 1px solid;
+
+    &.info {
+        background-color: $infoColor;
+    }
+
+    &.error {
+        background-color: $errorColor;
+    }
+}
